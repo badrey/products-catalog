@@ -8,8 +8,8 @@ import {ProductsSelection} from '../../components/ProductsSelection';
 
 export function HomeScreen() {
   return (
-    <SafeAreaView style={styles.container}>
-      <ScrollView nestedScrollEnabled>
+    <SafeAreaView>
+      <ScrollView style={styles.container} nestedScrollEnabled>
         <StatusBar backgroundColor={COLORS.grey} barStyle={'dark-content'} />
         <ScreenHeader title={'Browse Products'} />
         <ProductsCatalog />
